@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <!-- 장소 데이터(우리 서버의 정적 파일)와 장소 사진 받기. 위치·차량 정보는 보내지 않는다 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Pleos NaviHelper: 목적지 설정(경로 탐색), 경로 취소, 경로·도착 알림 -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_NOTIFY" />
+
+    <!-- Pleos TextToSpeech(문서 v3.3.1): 요약·리뷰 읽어 주기, 기상 알람 음성. Android 표준 TTS 대체는 쓰지 않는다 -->
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+    <!-- Pleos SpeechToText(문서 v3.3.1): 말로 앱 조작. 마이크는 Pleos 음성 서비스가 다뤄 RECORD_AUDIO는 선언하지 않는다 -->
+    <uses-permission android:name="pleos.car.permission.STT_SERVICE" />
+
+    <!-- Pleos Vehicle SDK 차박 시작: 앰비언트 조명·공조·앞좌석 등받이·창문 제어와 조회 -->
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_CLIMATE" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CAR_CLIMATE" />
+    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" />
+
+    <!-- 주행/정차 판단: 속도(위험 권한), 기어·주차 브레이크(일반 권한) -->
+    <uses-permission android:name="android.car.permission.CAR_SPEED" />
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
+    <!-- 에너지 카드: 배터리·주행 가능 거리·연료 부족(위험 권한), 연료 종류·배터리 용량(일반 권한) -->
+    <uses-permission android:name="android.car.permission.CAR_ENERGY" />
+    <!-- Pleos Vehicle SDK 읽기: 충전율(%) · 배터리 잔량(CAR_ENERGY), 기어 · 주행 가능 거리(CAR_DRIVE), 배터리 용량(CAR_INFO).
+         SDK 값을 먼저 쓰고 못 읽으면 위 표준 속성으로 돌아간다 -->
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_INFO" />
+    <uses-permission android:name="android.car.permission.CAR_INFO" />
+    <!-- 바깥 기온 -->
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_ENVIRONMENT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chabakine_pleos">
+
+        <!-- :shared의 템플릿(Car App Library) 서비스는 이 앱에서 쓰지 않는다 -->
+        <service
+            android:name="kr.sanho.chabakine_pleos.shared.MyCarAppService"
+            tools:node="remove" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="uiMode|screenSize|smallestScreenSize|screenLayout|orientation|density">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- 주행 중에도 열리는 앱. 화면 제한은 앱이 주행 상태를 보고 직접 한다 -->
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+        </activity>
+    </application>
+
+</manifest>

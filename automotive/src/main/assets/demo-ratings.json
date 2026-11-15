@@ -1,0 +1,33 @@
+{
+ "demo": true,
+ "places": {
+  "KR-42-GN-007": {
+   "count": 12,
+   "average": 4.4
+  },
+  "KR-42-GN-018": {
+   "count": 5,
+   "average": 3.9
+  },
+  "KR-42-GN-002": {
+   "count": 9,
+   "average": 4.2
+  },
+  "KR-42-GN-013": {
+   "count": 4,
+   "average": 2.1
+  },
+  "KR-42-GN-017": {
+   "count": 8,
+   "average": 3.6
+  },
+  "KR-42-GN-005": {
+   "count": 6,
+   "average": 4.3
+  },
+  "KR-42-GN-003": {
+   "count": 7,
+   "average": 4.5
+  }
+ }
+}

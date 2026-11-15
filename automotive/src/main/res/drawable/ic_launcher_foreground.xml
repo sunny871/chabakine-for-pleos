@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 차박이네 로고. 적응형 아이콘의 안전 영역(가운데 66dp) 안에 들어오도록 안쪽으로 줄인다 -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/chabakine_logo"
+    android:inset="18%" />

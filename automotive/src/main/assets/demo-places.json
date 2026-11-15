@@ -1,0 +1,453 @@
+[
+ {
+  "id": "KR-42-GN-007",
+  "name": "주문진글렘핑 오토캠핑장",
+  "region": "강원 강릉",
+  "address": "강원특별자치도 강릉시 주문진읍 신리천로 951-9",
+  "phone": "033-642-4241",
+  "latitude": 37.880128,
+  "longitude": 128.734478,
+  "signal": "green",
+  "reason": "강릉시 관광포털 캠핑장 안내에 글렘핑텐트 10동, 일반영지 20면 규모로 등록돼 있다.",
+  "sourceURL": "https://www.gn.go.kr/tour/prog/stayngManage/ST04/sub03_02_07/list.do?pageIndex=3",
+  "photoURLs": [],
+  "sourceName": "강릉시 관광포털 해변 19개소(캠핑장 안내)",
+  "verifiedAt": "2026-10-15",
+  "confidence": 2,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": null,
+   "water": null,
+   "electricity": null,
+   "shower": null
+  },
+  "seasonRules": [],
+  "notes": [
+   "차박(차량 내 취침) 가능 여부는 예약 전 운영자에게 확인",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "green",
+    "reason": "강릉시 관광포털 캠핑장 안내에 글렘핑텐트 10동, 일반영지 20면 규모로 등록돼 있다."
+   },
+   "tent": {
+    "signal": "unknown",
+    "reason": ""
+   },
+   "cook": {
+    "signal": "unknown",
+    "reason": ""
+   }
+  },
+  "site": {
+   "type": "오토캠핑장",
+   "parkingSize": "unknown",
+   "heightLimit": {
+    "state": "unknown"
+   },
+   "wind": "unknown"
+  },
+  "evidence": [
+   "공식 안내"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-GN-018",
+  "name": "아들바위공원",
+  "region": "강원 강릉",
+  "address": "강릉시 주문진읍 주문리 791-47",
+  "phone": null,
+  "latitude": 37.90588,
+  "longitude": 128.830107,
+  "signal": "yellow",
+  "reason": "후기(카페 목록) 기준 바닷가 노지 캠핑 장소로 소개됐고 단속·허용 정보는 없다. 후기 기준, 공식 확인 필요.",
+  "sourceURL": "https://m.cafe.daum.net/refarm/Qmay/522?listURI=%2Frefarm%2FQmay; https://m.cafe.daum.net/beautiful5060/NNns/1189",
+  "photoURLs": [],
+  "sourceName": "다음카페 귀농사모 '강원도 차박 명소'(2023-04-19); 다음카페 아름다운 5060 '강원특별자치도 노지 캠핑장 88'(2024-01-29)",
+  "verifiedAt": "2026-10-15",
+  "confidence": 1,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": null,
+   "water": null,
+   "electricity": null,
+   "shower": null
+  },
+  "seasonRules": [],
+  "notes": [
+   "카페 글은 모두 1년 넘음",
+   "목록형 글이라 직접 후기가 아님",
+   "주소는 카페 글 기준",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "yellow",
+    "reason": "후기(카페 목록) 기준 바닷가 노지 캠핑 장소로 소개됐고 단속·허용 정보는 없다. 후기 기준, 공식 확인 필요."
+   },
+   "tent": {
+    "signal": "unknown",
+    "reason": ""
+   },
+   "cook": {
+    "signal": "unknown",
+    "reason": ""
+   }
+  },
+  "site": {
+   "parkingSize": "unknown",
+   "heightLimit": {
+    "state": "unknown"
+   },
+   "wind": "unknown"
+  },
+  "evidence": [
+   "후기·블로그"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-GN-002",
+  "name": "연곡해변 솔향기 캠핑장",
+  "region": "강원 강릉",
+  "address": "강원특별자치도 강릉시 연곡면 해안로 1282-2",
+  "phone": "033-662-2900",
+  "latitude": 37.858249,
+  "longitude": 128.853042,
+  "signal": "green",
+  "reason": "강릉시 관광포털 캠핑장 안내에 일반텐트 122면, 자동차텐트 25면 규모로 등록돼 있다.",
+  "sourceURL": "https://www.gn.go.kr/tour/prog/stayngManage/ST04/sub03_02_07/list.do?pageIndex=2",
+  "photoURLs": [],
+  "sourceName": "강릉시 관광포털 해변 19개소(캠핑장 안내)",
+  "verifiedAt": "2026-10-15",
+  "confidence": 2,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": null,
+   "water": null,
+   "electricity": null,
+   "shower": null
+  },
+  "seasonRules": [],
+  "notes": [
+   "차박(차량 내 취침) 가능 여부와 영지별 조건은 예약 전 운영자에게 확인",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "green",
+    "reason": "강릉시 관광포털 캠핑장 안내에 일반텐트 122면, 자동차텐트 25면 규모로 등록돼 있다."
+   },
+   "tent": {
+    "signal": "unknown",
+    "reason": ""
+   },
+   "cook": {
+    "signal": "unknown",
+    "reason": ""
+   }
+  },
+  "site": {
+   "type": "오토캠핑장",
+   "parkingSize": "unknown",
+   "heightLimit": {
+    "state": "unknown"
+   },
+   "wind": "unknown"
+  },
+  "evidence": [
+   "공식 안내"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-GN-013",
+  "name": "사천해변",
+  "region": "강원 강릉",
+  "address": "강원 강릉시 사천면 방동리 산 282-1",
+  "phone": "033-660-3658",
+  "latitude": 37.829718,
+  "longitude": 128.877943,
+  "signal": "red",
+  "reason": "강릉시가 사천진 해수욕장 입구 주차장 일대에 야영, 취사·모닥불, 장기주차(차박), 폭죽 금지 현수막을 걸었다고 도민일보가 보도했다.",
+  "sourceURL": "https://v.daum.net/v/20250611000517472; https://www.gn.go.kr/tour/prog/lod/Sights/S0101/sub02_02_02/view.do?cid=436",
+  "photoURLs": [],
+  "sourceName": "강원도민일보 '야영·취사금지 무색…바닷가 점령한 차박족'(2025-06-11); 강릉시 관광포털 사천해변",
+  "verifiedAt": "2026-10-15",
+  "confidence": 2,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": true,
+   "water": null,
+   "electricity": null,
+   "shower": true
+  },
+  "seasonRules": [
+   "관광포털: 연중개방, 상시이용 가능"
+  ],
+  "notes": [
+   "기사 속 '사천진해수욕장'과 관광포털 '사천해변'이 같은 곳인지 확인 필요",
+   "관광포털은 야영장·오토캠프장 시설과 군부대 인근 야간 해변 출입 규제를 안내해 서로 다름",
+   "기사 취재 시점(2025-06-07~08)에는 현수막에도 불구하고 차박과 취사가 이어졌고 단속이 없었다고 함",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "red",
+    "reason": "강릉시가 사천진 해수욕장 입구 주차장 일대에 야영, 취사·모닥불, 장기주차(차박), 폭죽 금지 현수막을 걸었다고 도민일보가 보도했다."
+   },
+   "tent": {
+    "signal": "red",
+    "reason": "야영 금지 현수막 (강릉시)"
+   },
+   "cook": {
+    "signal": "red",
+    "reason": "취사·모닥불 금지 현수막 (강릉시)"
+   }
+  },
+  "site": {
+   "parkingSize": "unknown",
+   "heightLimit": {
+    "state": "unknown"
+   },
+   "wind": "unknown",
+   "type": "해변 주차장"
+  },
+  "evidence": [
+   "후기·블로그"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-GN-017",
+  "name": "남항진해변",
+  "region": "강원 강릉",
+  "address": "강릉시 남항진동",
+  "phone": null,
+  "latitude": 37.75915,
+  "longitude": 128.955612,
+  "signal": "yellow",
+  "reason": "후기(카페 목록) 기준 해변 주차장 노지 캠핑 장소로 소개됐다. 강릉시가 2026-05-11 공영주차장 야영·취사·장기주차 단속 방침을 밝혀 허용으로 볼 수 없다. 후기 기준, 공식 확인 필요.",
+  "sourceURL": "https://m.cafe.daum.net/beautiful5060/NNns/1189; https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605110173",
+  "photoURLs": [],
+  "sourceName": "다음카페 아름다운 5060 '강원특별자치도 노지 캠핑장 88'(2024-01-29); 와우TV 나들이철 되니 또…주차장 점령한 '캠핑카 군단'(2026-05-11)",
+  "verifiedAt": "2026-10-15",
+  "confidence": 1,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": null,
+   "water": true,
+   "electricity": null,
+   "shower": null
+  },
+  "seasonRules": [],
+  "notes": [
+   "카페 글이 2024-01-29로 1년 넘음",
+   "수도는 글의 '개수대(주차장 포함)' 표기 기준",
+   "주소·주차장 소유(공영 여부) 확인 필요",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "yellow",
+    "reason": "차 안 숙박은 1박만 · 장기주차는 단속 대상"
+   },
+   "tent": {
+    "signal": "red",
+    "reason": "텐트·타프 설치 단속 안내 (강릉시)"
+   },
+   "cook": {
+    "signal": "red",
+    "reason": "취사·모닥불 단속 안내 (강릉시)"
+   }
+  },
+  "site": {
+   "parkingSize": "small",
+   "heightLimit": {
+    "state": "limited",
+    "meters": 2.1
+   },
+   "wind": "exposed",
+   "type": "해변 주차장"
+  },
+  "evidence": [
+   "후기·블로그"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-GN-005",
+  "name": "경포대 오토캠핑장",
+  "region": "강원 강릉",
+  "address": "강원특별자치도 강릉시 해안로 388(초당동)",
+  "phone": null,
+  "latitude": 37.791132,
+  "longitude": 128.910467,
+  "signal": "green",
+  "reason": "강릉시 관광포털 캠핑장 안내에 카라반(캠핑트레일러) 16대 규모로 등록돼 있다.",
+  "sourceURL": "https://www.gn.go.kr/tour/prog/stayngManage/ST04/sub03_02_07/list.do",
+  "photoURLs": [],
+  "sourceName": "강릉시 관광포털 해변 19개소(캠핑장 안내)",
+  "verifiedAt": "2026-10-15",
+  "confidence": 2,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": null,
+   "water": null,
+   "electricity": null,
+   "shower": null
+  },
+  "seasonRules": [],
+  "notes": [
+   "카라반 위주로 등록돼 있어 일반 차량 차박 가능 여부는 불명",
+   "운영자 연락처 목록에 없음",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "green",
+    "reason": "강릉시 관광포털 캠핑장 안내에 카라반(캠핑트레일러) 16대 규모로 등록돼 있다."
+   },
+   "tent": {
+    "signal": "unknown",
+    "reason": ""
+   },
+   "cook": {
+    "signal": "unknown",
+    "reason": ""
+   }
+  },
+  "site": {
+   "type": "오토캠핑장",
+   "parkingSize": "unknown",
+   "heightLimit": {
+    "state": "unknown"
+   },
+   "wind": "unknown"
+  },
+  "evidence": [
+   "공식 안내"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-GN-003",
+  "name": "대관령솔내음오토캠핑장",
+  "region": "강원 강릉",
+  "address": "강원특별자치도 강릉시 성산면 삼포암길 48",
+  "phone": "033-646-7491",
+  "latitude": 37.71691,
+  "longitude": 128.794549,
+  "signal": "green",
+  "reason": "강릉시 관광포털 캠핑장 안내에 목재데크 54면, 카라반 1동 규모로 등록돼 있다.",
+  "sourceURL": "https://www.gn.go.kr/tour/prog/stayngManage/ST04/sub03_02_07/list.do",
+  "photoURLs": [],
+  "sourceName": "강릉시 관광포털 해변 19개소(캠핑장 안내)",
+  "verifiedAt": "2026-10-15",
+  "confidence": 2,
+  "verification": "임시검증",
+  "amenities": {
+   "toilet": null,
+   "water": null,
+   "electricity": null,
+   "shower": null
+  },
+  "seasonRules": [],
+  "notes": [
+   "차박(차량 내 취침) 가능 여부와 사이트별 조건은 예약 전 운영자에게 확인",
+   "좌표 확인 필요"
+  ],
+  "stay": {
+   "car": {
+    "signal": "green",
+    "reason": "강릉시 관광포털 캠핑장 안내에 목재데크 54면, 카라반 1동 규모로 등록돼 있다."
+   },
+   "tent": {
+    "signal": "unknown",
+    "reason": ""
+   },
+   "cook": {
+    "signal": "unknown",
+    "reason": ""
+   }
+  },
+  "site": {
+   "type": "오토캠핑장",
+   "parkingSize": "unknown",
+   "heightLimit": {
+    "state": "unknown"
+   },
+   "wind": "unknown"
+  },
+  "evidence": [
+   "공식 안내"
+  ],
+  "demo": true
+ },
+ {
+  "id": "KR-42-PC-001",
+  "name": "육백마지기",
+  "region": "강원 평창",
+  "address": "강원 평창군 미탄면 회동리 1-14",
+  "phone": null,
+  "latitude": 37.406741,
+  "longitude": 128.511473,
+  "signal": "yellow",
+  "reason": "일부 방문객은 차량 내에서 잠만 자는 형태의 스텔스 차박을 언급하기도 하나, 공식 운영 기준은 야영 금지입니다.",
+  "sourceURL": "https://www.pc.go.kr/portal",
+  "photoURLs": [
+   "https://chabakine-api-live.sanhokr.com/static/place-photos/KR-42-PC-001/d53a2aa11bfb47c195507309c1c835ea.jpg",
+   "https://chabakine-api-live.sanhokr.com/static/place-photos/KR-42-PC-001/52f55e94d16048048ef5f2ea6ce68a8b.jpg",
+   "https://chabakine-api-live.sanhokr.com/static/place-photos/KR-42-PC-001/c69d6e03302a41109f62863528d5e925.jpg",
+   "https://chabakine-api-live.sanhokr.com/static/place-photos/KR-42-PC-001/66667ca5207543aa9560cca058ef27ff.jpg",
+   "https://chabakine-api-live.sanhokr.com/static/place-photos/KR-42-PC-001/34889dfa923347248735210ab29d8e7d.jpg"
+  ],
+  "sourceName": "평창군 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "confidence": 2,
+  "verification": "검증완료",
+  "amenities": {
+   "toilet": true,
+   "water": false,
+   "electricity": false,
+   "shower": false
+  },
+  "seasonRules": [],
+  "notes": [],
+  "stay": {
+   "car": {
+    "signal": "yellow",
+    "reason": "일부 방문객은 차량 내에서 잠만 자는 형태의 스텔스 차박을 언급하기도 하나, 공식 운영 기준은 야영 금지입니다."
+   },
+   "docking": {
+    "signal": "red",
+    "reason": "야영 금지"
+   },
+   "rooftop": {
+    "signal": "yellow",
+    "reason": "이용자 제보"
+   },
+   "tent": {
+    "signal": "red",
+    "reason": "도킹형 금지(야영 금지) · 루프탑형 조건부(이용자 제보)"
+   },
+   "cook": {
+    "signal": "red",
+    "reason": "취사, 화기 금지"
+   }
+  },
+  "evidence": [
+   "현장 확인"
+  ],
+  "site": {
+   "type": "공원·공영주차장",
+   "parkingSize": "medium",
+   "wind": "exposed",
+   "heightLimit": {
+    "state": "none"
+   }
+  }
+ }
+]
